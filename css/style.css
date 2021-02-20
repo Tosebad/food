@@ -142,13 +142,12 @@ main {
 }
 
 .section {
-    height: 28.13rem;
+    padding: 10em 0 10em 0;
 }
 
 .container {
-    max-width: 75rem;
-    width: 100%;
-    overflow: hidden;
+    padding: 5em 0;
+    margin: 0 auto;
 }
 
 /* carrosel de imagem */
@@ -183,11 +182,11 @@ main {
 }
 
 .description {
-    margin: 10px 0;
+    padding-top: 1.5em;
 }
 
 .demo {
-    margin-bottom: 0.625rem;
+    padding: 1.5em 0;
 }
 
 .l-demo {
@@ -244,6 +243,42 @@ main {
 .hover-btn:hover {
     box-shadow: 0 7px 14px rgba(50,50,93,.1),0 3px 6px rgba(0,0,0,.08);
     transform: translateY(-1px);
+}
+
+
+/* layout do footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #F4F5F7;
+    align-items: center;;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #525F7F;
+    cursor: pointer;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #395bb3;
+}
+
+.nav-footer {
+    margin: 0;
+    padding: 1em;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.nav-footer li {
+    padding: 10px;
+    margin-right: 1.2em;
 }
 
 /* Criação do efeito do icone de redes sociais */
