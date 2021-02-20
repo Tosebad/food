@@ -142,7 +142,7 @@ main {
 }
 
 .section {
-    padding: 10em 0 10em 0;
+    padding: 10em 0;
 }
 
 .container {
@@ -252,7 +252,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #F4F5F7;
-    align-items: center;;
+    align-items: center;
 
 }
 
