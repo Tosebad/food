@@ -249,10 +249,14 @@ main {
 /* layout do footer */
 
 footer {
+    position: relative;
+}
+.container-footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background: rgba(214, 214, 219, 0.568);
     align-items: center;
+    max-width: 1200px;
+    width: 100%;
     position: absolute;
     left: 0;
     right: 0;
