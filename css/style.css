@@ -36,7 +36,7 @@ p, h1, h2, h3 {
     margin: 0;
     padding: 0;
     clear: both;
-    background-color: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.95);
     list-style: none;
     overflow: hidden;
     max-height: 0;
@@ -251,15 +251,21 @@ main {
 footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    background-color: #F4F5F7;
+    background: rgba(214, 214, 219, 0.568);
     align-items: center;
-
+    position: absolute;
+    left: 0;
+    right: 0;
 }
 
 footer a {
     text-decoration: none;
     color: #525F7F;
     cursor: pointer;
+}
+
+.logo-footer {
+    margin-left: 20px;
 }
 
 footer a:hover {
